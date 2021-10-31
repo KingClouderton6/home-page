@@ -1,5 +1,43 @@
 body {
-    background-color: aliceblue;
-    background-image: url("images/avatar-the-last-airbender-1920x1080.jpg");
-    background-position: center center;
+    display: flex;
+    background-color: darkgrey;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.center-buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+img {
+    width: 10vh;
+    height: 10vh;
+}
+
+.buttons-background {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 11vh;
+    height: 11vh;
+    animation-name: background;
+    animation-duration: 7.5s;
+    animation-iteration-count: infinite;
+    border-radius: 5px;
+}
+
+@keyframes background {
+    0%  {background: #3cb64f;}
+    25% {background: #a7823b;}
+    50% {background: #983a89;}
+    75% {background: #395489;}
+    100% {background: #3cb64f;}
 }
