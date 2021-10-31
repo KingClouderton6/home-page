@@ -9,13 +9,6 @@ body {
     padding: 0px;
 }
 
-/* .nav-top {
-    display: flex;
-    margin-bottom: auto;
-    background: green;
-    width: 100rem;
-} */
-
 .center-buttons {
     display: flex;
     flex-direction: row;
@@ -27,9 +20,16 @@ body {
     flex: 1;
 }
 
+a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 img {
     width: 10vh;
     height: 10vh;
+
 }
 
 .buttons-background {
