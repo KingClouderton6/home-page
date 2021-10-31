@@ -3,18 +3,28 @@ body {
     background-color: darkgrey;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     min-height: 100vh;
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
 }
 
-
+.nav-top {
+    display: flex;
+    margin-bottom: auto;
+    background: green;
+    width: 100rem;
+}
 
 .center-buttons {
     display: flex;
     flex-direction: row;
-    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    align-content: space-evenly;
+    gap: 20px;
     flex-wrap: wrap;
+    flex: 1;
 }
 
 img {
